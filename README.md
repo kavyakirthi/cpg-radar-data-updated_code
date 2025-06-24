@@ -3,7 +3,7 @@
 ## Used Pandas for Data Processing
 I replaced manual row-level processing with Pandas-based operations.
 
-I used pandas.read_csv() to load the movie data.
+ used pandas.read_csv() to load the movie data.
 
 Grouped the data by year to compute the average IMDb rating per year using groupby().
 
