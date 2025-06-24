@@ -15,7 +15,7 @@ load_data(), compute_yearly_average(), build_movie_entry(), process_movies(), an
 I created a main() function to organize the overall workflow.
 
 ## Added Robust Error Handling
-Wrapped all JSON file reading in try/except blocks to catch:
+Wrapped all JSON file reading in except blocks to catch:
 
 Missing files
 
@@ -28,7 +28,7 @@ Renamed variables and functions for better clarity and consistency.
 
 Preserved necessary typos like 'writters.json' and 'imbd_votes' only for compatibility with the given input/output files.
 
-Used meaningful names such as genre_map, year_avg_map, and valid_writers.
+Used names such as genre_map, year_avg_map, and valid_writers.
 
 ### Avoided Hardcoding with Constants
 Defined all filenames and "magic values" at the top of the script using constants:
